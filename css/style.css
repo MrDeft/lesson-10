@@ -218,3 +218,150 @@ a {
 .shop-content:hover {
   border: 2px solid #f53838;
 }
+/* MAP */
+.map {
+  text-align: center;
+}
+.map-title {
+  margin: auto;
+  width: 520px;
+  margin-top: 150px;
+  text-align: center;
+  margin-bottom: 150px;
+}
+.map-title h1 {
+  font-size: 36px;
+  line-height: 1.5;
+}
+.map-title p {
+  line-height: 2;
+  color: #4f5665;
+}
+.map-title span {
+  font-weight: bold;
+}
+.map-company {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* CARD */
+.card-1 {
+  display: flex;
+  width: 1400px;
+  justify-content: space-between;
+}
+.card-title {
+  margin: auto;
+  width: 520px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.card-title h1 {
+  font-size: 36px;
+  line-height: 1.5;
+}
+.card-title p {
+  line-height: 2;
+  color: #4f5665;
+}
+.card {
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 3px solid #dddddd;
+}
+.card:hover {
+  border: 3px solid #f53838;
+}
+.card-robert {
+  display: flex;
+  align-items: center;
+}
+.card-robert-in {
+  margin-left: 20px;
+  margin-right: 150px;
+}
+.card-robert-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+.card-robert-p {
+  line-height: 2;
+  color: #0b132a;
+  font-weight: 500;
+}
+.card-robert-address {
+  font-size: 14px;
+  color: #4f5665;
+}
+
+/* SUBSCRIBE */
+.subscribe {
+  padding: 30px 60px;
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  align-items: center;
+  background-color: white;
+  justify-content: space-between;
+  box-shadow: 10px 30px 120px -70px;
+}
+.subscribe-com h1 {
+  width: 360px;
+  font-size: 36px;
+}
+.subscribe-text {
+  color: #4f5665;
+}
+.subscribe-btn {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 20px 60px;
+  border-radius: 10px;
+  border: 1px solid #f53838;
+  background-color: #f53838;
+  box-shadow: 10px 20px 50px 0px #e9a9a9;
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f8f8f844;
+  margin-bottom: 100px;
+}
+.footer-item {
+  line-height: 2.5;
+}
+.footer-item li a{
+  color: #4f5665;
+}
+.footer-item li h3 {
+  color: #0b132a;
+}
+.footer-text{
+  line-height: 2;
+  color: #4F5665;
+}
+.footer-text span {
+  font-weight: bold;
+}
+.footer-share{
+  display: flex;
+}
+.footer-component {
+  display: flex;
+  align-items: flex-start;
+}
+.footer-component1{
+  padding-right: 200px;
+  padding-top: 30px;
+}
+.footer-design {
+  color: #AFB5C0;
+}
+.footer-design span{
+  font-weight: bold;
+}
