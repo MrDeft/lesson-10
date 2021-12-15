@@ -170,7 +170,7 @@ a {
 .shop {
   display: flex;
   margin-top: 60px;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .shop-title {
   color: #0b132a;
